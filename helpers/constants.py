@@ -1,0 +1,6 @@
+PWD_HASH_SALT = b'secret here'
+PWD_HASH_ITERATIONS = 100_00
+SECRET = '249y823r9v8238r9u'
+ALGO = 'HS256'
+
+

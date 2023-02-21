@@ -1,0 +1,11 @@
+id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+email = db.Column(db.String(100), nullable=False, unique=True)
+password = db.Column(db.String(300), nulltable=False)
+name = db.Column(db.String(100))
+surname = db.Colum(db.String(100))
+favorite_genre = db.Column(db.String(100))
+
+id = db.Column(db.Integer, primary_key=True)
+username = db.Column(db.String)
+password = db.Column(db.String)
+role = db.Column(db.String)
